@@ -22,7 +22,7 @@ IMU = False
 camera = False
 
 # File info
-launch_dir =  "./ROS_Workspace/src/contactile_gripper/launch/"
+launch_dir =  "./contactile_gripper/launch/"
 gen_file_name = "autogen.launch"
 gen_file_path = launch_dir + gen_file_name
 contactile_node_txt = "contactile.txt"
@@ -33,7 +33,7 @@ control_node_txt = "control.txt"
 pose_node_txt = "pose.txt"
 UI_node_txt = "UI.txt"
 sys_test_txt = "sys_test.txt"
-data_recorder_path = "./ROS_Workspace/src/contactile_gripper/src/data_recorder_node.py"
+data_recorder_path = "./contactile_gripper/src/data_recorder_node.py"
 
 def generate_file():
     """The order matters. Some nodes need to be started before others."""
